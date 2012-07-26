@@ -1,10 +1,15 @@
 @-moz-document domain(grooveshark.com) {
   #capital,
   #capitalSidebar,
-  div[id*=CapitalWrapper]
+  div[id*=capitalAboveFoldHelper_300]
   {
     display: none !important
   }
+  div[id*=playlistCapitalWrapper_300]
+  {
+    display: none !important
+  }
+    
   #application {
     margin-right: 0 !important
   }
