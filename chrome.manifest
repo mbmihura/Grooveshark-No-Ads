@@ -1,2 +1,11 @@
-content nogroovesharkads chrome/content/
-overlay chrome://browser/content/browser.xul chrome://nogroovesharkads/content/nogroovesharkads.xul
+  "name": "My Extension",
+  "version": "versionString",
+  "manifest_version": 2,
+  
+  "content_scripts": [
+    {
+      "matches": ["http://grooveshark.com/*"],
+      "css": ["chrome\content\nogroovesharkads.css"],
+      "js": ["chrome\content\nogroovesharkads.js"]
+    }
+  ]
